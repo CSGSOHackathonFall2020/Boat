@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width">
+        <title>Local birds search</title>
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+
+    <body>
+        <!--Headings here-->
+        <h1>Welcome to local bird searching</h1>
+
+        <!--paragraph-->
+        <p>More descriptions about the speciality of the websites</p>            
+        <p>Please select the habitat, season, colors to narrow the searching.</p>
+
+        <br>
+        <hr>
+        <br>
+        <!-- Forms-->
+        <form action="database.php" method="POST">
+            <div>
+                <label>habitat</label>
+                <select name="habitat">
+                    <option value="water">Water</option>
+                    <option value="grassland">Grassland</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>season</label>
+                <select name="season">
+                    <option value="summer">Summer</option>
+                    <option value="winter">Winter</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label>colors</label>
+                <select name="colors">
+                    <option value="grey">Grey</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="red">Red</option>
+                    <option value="black">Black</option>
+                </select>
+            </div>
+            <br>
+            <input type="submit" name="submit" value="Submit">
+        </form>
+
+        <!--Image-->
+        <br>
+        <img src="IMG_0001.jpg" alt="My sample image" width="200">
+
+
+    </body>
+</html>
