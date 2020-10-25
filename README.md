@@ -6,7 +6,8 @@ Used the APP BirdsEye for some source data.
 # Summary
 Learned basic html, css, and javascript script. On the backend side, used mysql to enter some sample dataset (including pictures and paths). Failed to build connection to send request from webpage to database.
 
-# webstie (simple page, nonfunctional :) ) can be reached at http://eva333.nl/
+# webstie 
+(simple page, nonfunctional :) ) can be reached at http://eva333.nl/
 
 Progress: 
 html file --> Done?  
@@ -15,3 +16,5 @@ javascript --> working on it
 server setting up --> ongoing  
 mySQL sample database entering --> done  
 php, webserver, and mysql communication --> ongoing  
+
+better website name but still needs to be updated in DNS name resolver: http://amesbirdswatching.tk/ 
