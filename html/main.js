@@ -4,7 +4,8 @@ function sendJSON(){
     const habitatInput = document.querySelector('#habitat');
     const seasonInput = document.querySelector('#season');
     const colorInput = document.querySelector('#color'); 
-       
+    
+    console.log(habitatInput.value);
     // Creating a XHR object 
     let xhr = new XMLHttpRequest(); 
     let url = "my.php"; 
@@ -22,7 +23,7 @@ function sendJSON(){
             // Print received data from server 
             result.innerHTML = this.responseText; 
 
-        } 
+        }
     }; 
 
     // Converting JSON data to string 
